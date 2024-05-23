@@ -20,7 +20,6 @@ const MainNavigator = () => {
   return (
     <SafeAreaView
       style={{
-        backgroundColor: currentTheme.background,
         flex: 1,
       }}
       edges={['top', 'left', 'right']}>
@@ -34,5 +33,3 @@ const MainNavigator = () => {
 };
 
 export default MainNavigator;
-
-const styles = StyleSheet.create({});

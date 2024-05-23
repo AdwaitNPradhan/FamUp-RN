@@ -1,14 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
-const LegalScreen = () => {
+const HelpSupportScreen = () => {
   return (
     <View>
-      <Text>LegalScreen</Text>
+      <Text>Help&SupportScreen</Text>
     </View>
   );
 };
 
-export default LegalScreen;
+export default HelpSupportScreen;
 
 const styles = StyleSheet.create({});

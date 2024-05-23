@@ -1,5 +1,10 @@
 export interface ICColors {
   black: string;
+  jet: string;
+  tomato: string;
+  ghostWhite: string;
+  turquoise: string;
+  citrine: string;
   white: string;
   gray: string;
   darkGray: string;
@@ -31,6 +36,12 @@ const CColors: ICColors = {
   purple: '#800080',
   brown: '#A52A2A',
   transparent: '#00000000',
+
+  jet: '#303036',
+  tomato: '#FC5130',
+  ghostWhite: '#FFFAFF',
+  turquoise: '#2FE6DE',
+  citrine: '#EAD637',
 };
 
 export default CColors;

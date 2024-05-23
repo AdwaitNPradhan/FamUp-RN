@@ -1,6 +1,7 @@
 import {StyleProp, Text, TextProps, TextStyle} from 'react-native';
 import React from 'react';
 import useTheme from '../hooks/useTheme';
+import CFonts from '../constants/fonts';
 
 enum EFontWeight {
   Regular = '400',
@@ -22,7 +23,8 @@ const CustomText = (props: TextProps) => {
     {
       color: currentTheme.textColor,
       fontSize: EFontSize.Medium,
-      fontWeight: EFontWeight.Regular,
+      fontWeight: EFontWeight.Medium,
+      fontFamily: CFonts.quickSand,
     },
     props?.style,
   ];

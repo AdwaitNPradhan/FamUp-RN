@@ -13,5 +13,3 @@ const AuthNav = () => {
 };
 
 export default AuthNav;
-
-const styles = StyleSheet.create({});

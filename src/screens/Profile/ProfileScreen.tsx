@@ -4,18 +4,20 @@ import CustomText from '../../components/CustomText';
 import ScreenContainer from '../../components/ScreenContainer';
 import CFonts from '../../constants/fonts';
 
-const HomeScreen = () => {
+const ProfileScreen = () => {
   return (
     <ScreenContainer>
-      <CustomText style={{fontFamily: CFonts.roboto}}>HomeScreen</CustomText>
-      <CustomText style={{fontFamily: CFonts.quickSand}}>HomeScreen</CustomText>
+      <CustomText style={{fontFamily: CFonts.roboto}}>ProfileScreen</CustomText>
+      <CustomText style={{fontFamily: CFonts.quickSand}}>
+        ProfileScreen
+      </CustomText>
       <CustomText style={{fontFamily: CFonts.montserrat}}>
-        HomeScreen
+        ProfileScreen
       </CustomText>
     </ScreenContainer>
   );
 };
 
-export default HomeScreen;
+export default ProfileScreen;
 
 const styles = StyleSheet.create({});
